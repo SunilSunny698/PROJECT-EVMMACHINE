@@ -1,0 +1,267 @@
+body{
+	width: 99%;
+	padding: 0px;
+	font-family: sans-serif;
+}
+#container{
+	background-color:#efefef;
+	width: 1300px;
+	height: 600px;
+	margin: 20px 0px 0px 20px;
+	padding-top:15px ;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+}
+#container1{
+	width: 40%;
+	height: 90%;
+	background-color: #b6b8cc;
+	border: 3px solid black;
+	margin: 20px 0px 0px 20px;
+	display: flex;
+	flex-direction: row;
+	visibility: visible;
+}
+
+#inBox1{
+	width: 49%;
+	height: 90%;
+	border: 1px solid;
+	margin: 20px 0px 0px 20px;
+}
+.p1:first-child{
+	margin-top: 30px;
+}
+.p1{
+	height: 9%;
+	width: 98%;
+	border-radius: 15px;
+	background-image:linear-gradient(to bottom,#fbfdff 16%,#d5fffc 84%) ;
+	position: relative;
+	margin-bottom: 1px;
+	margin-left: 2%;
+}
+.b1:first-child{
+	margin-top: 30px;
+}
+.b1{
+	height: 9%;
+	width: 100%;
+	border-top:1px solid ;
+	position: relative;
+}
+.p1 span{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	color: red;
+	font-weight: bold;
+	font-size: 24px;
+}
+.p1 img{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	border-radius: 100%;
+} 
+#inBox2{
+	margin: 20px 0px 0px 2px;
+	width: 44%;
+	height: 90%;
+	border: 1px solid;
+}
+.b1 button{
+	cursor: pointer;
+	height: 85%;
+	width: 45%;
+	/*background-image: linear-gradient(to bottom,#272a3f 60%,#25415c 30%,#21466a 10%);*/
+	background-color: #272a3f;
+	
+	border-radius: 30px;
+	border: none;
+	position: absolute;
+	top: 2px;
+	right: 20px;
+}
+.active{
+	box-shadow:inset 2px 2px 2px 1px white,1px 1px 2px 1px black;
+}
+.b1 img{
+	height: 30px;
+	width: 50px;
+	position: absolute;
+	top: 7px;
+	left: 10px;
+}
+.not{
+	box-shadow: ;
+	background-color: red;
+}
+
+
+#container2{
+	height: 80%;
+	width: 30%;
+	background-color: #b6b8cc;
+	margin: 20px 0px 0px 120px;
+	border: 2px solid;
+	position: relative;
+}
+#display{
+	width: 80%;
+	height: 120px;
+	background-color: black;
+	margin: 25px 0px 0px 40px;
+	border-radius: 10px;
+	/*border:1px solid red;*/
+	position: relative;
+	box-shadow: inset 0px 0px 2px 7px #7e8590,inset 0px 0px 2px 8px red;
+}
+#green{
+	width: 50px;
+	height: 50px;
+	
+}
+#green{
+	padding-top: 8px;
+	padding-left: 8px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+#green{
+	background-color: green;
+	position: absolute;
+	top: 200px;
+	left: 170px;
+	border: none;
+	box-shadow: inset 3px 3px 2px #82ae91,2px 2px 3px black;
+	background-image: url(party/power.png);
+	background-repeat: no-repeat;
+}
+#reset,#count{
+	height: 50px;
+	width: 110px;
+	cursor: pointer;
+	border: none;
+}
+
+.marks{
+	border: none;
+	cursor: pointer;
+	box-sizing: border-box;
+	height: 50px;
+	width: 50px;
+	background-color: #8f8ead;
+	box-shadow: inset 3px 3px 2px #bec4d4,2px 2px 3px black;
+}
+#mark1{
+	position: absolute;
+	bottom: 90px;
+	right: 45px;
+}
+#mark2{
+	position: absolute;
+	bottom: 90px;
+	right: 105px;
+}
+#mark3{
+	position: absolute;
+	bottom: 30px;
+	right: 45px;
+}
+#mark4{
+	position: absolute;
+	right: 105px;
+	bottom: 30px;
+}
+#voteConfirm{
+	position: absolute;
+	left: 45px;
+	bottom: 90px;
+}
+#voteCancel{
+	position: absolute;
+	left: 105px;
+	bottom: 90px;
+}
+#reset{
+	box-sizing: border-box;
+	font-size: 30px;
+	padding-top: 4px;
+	padding-left: 8px;
+	/*font-weight: bold;*/
+	color: white;
+	background-color: #cb020a;
+	position: absolute;
+	bottom: 145px;
+	left: 45px;
+	box-shadow: inset 3px 3px 2px #e06b6c,2px 2px 3px black;
+}
+.marks b:not(#mark3 b,#mark4 b){
+	font-size: 35px;
+	font-weight: bold;
+	padding-left: 3px;
+	color:#393939 ;
+	text-shadow: 1px 1px 6px 5px black;
+	
+}
+#mark3 b,#mark4 b{
+	width: 40px;
+	height: 40px;
+	font-size: 35px;
+	font-weight: bold;
+	padding-left: 3px;
+	margin-top: 10px;
+	/*border: 1px solid;*/
+	color:#000 ;
+	text-shadow: 1px 1px 6px 5px black;
+}
+#mark3,#mark4{
+	padding-top: 3px;
+}
+#count{
+	box-sizing: border-box;
+	font-size: 30px;
+	padding-top: 4px;
+	padding-left: 6px;
+	color: white;
+	position: absolute;
+	bottom: 145px;
+	right: 45px;
+	background-color: #8f8ead;
+	box-shadow: inset 3px 3px 2px #bec4d4,2px 2px 3px black;	
+
+}
+#power{
+	height: 17px;
+	width: 17px;
+	border-radius: 100%;
+	position: absolute;
+	right: 35px;
+	top: 160px;
+	box-shadow: inset 0px 0px 1px 1px black,inset 2px 2px 2px 1px white;
+	border: 2px solid black;
+	background-color: green;
+
+}
+#display img{
+	position: absolute;
+	top: 15px;
+	left: 40%;
+	
+}
+#votescountVar{
+	position: absolute;
+	bottom: 20px;
+	left: 33%;
+	color: red;
+	font-size: 18px;
+	/*visibility: hidden;*/
+}
+.resetting{
+	position: absolute;
+	top: 50px;
+}

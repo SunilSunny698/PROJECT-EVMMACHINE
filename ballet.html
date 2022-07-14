@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>VOTE</title>
+	<link rel="stylesheet" type="text/css" href="ballet.css">
+	
+</head>
+<body>
+	<div id="container">
+		<div id="container1">
+			<div id="inBox1">
+				<div class="p1"><span>Congress</span><img src="party/1.png" ></div>
+				<div class="p1"><span>BJP</span><img src="party/2.png"></div>
+				<div class="p1"><span>TDP</span><img src="party/3.png" ></div>
+				<div class="p1"><span>YSR Congress</span><img src="party/4.png" ></div>
+				<div class="p1"><span>Loksatha</span><img src="party/5.png" ></div>
+				<div class="p1"><span>CPM</span><img src="party/6.png"></div>
+				<div class="p1"><span>TRS</span><img src="party/7.png" ></div>
+				<div class="p1"><span>PRP</span><img src="party/8.png"></div>
+				<div class="p1"></div>
+				<div class="p1"></div>
+			</div>
+			<div id="inBox2">
+				<div id="area1" class="b1"><img id="img1" src="party/left.png"><button class="active" id="but1" onclick="voteOn(1)"></button></div>
+				<div id="area2" class="b1"><img id="img2" src="party/left.png"><button class="active" id="but2" onclick="voteOn(2)"></button></div>
+				<div id="area3" class="b1"><img id="img3" src="party/left.png"><button class="active" id="but3" onclick="voteOn(3)"></button></div>
+				<div id="area4" class="b1"><img id="img4" src="party/left.png"><button class="active" id="but4" onclick="voteOn(4)"></button></div>
+				<div id="area5" class="b1"><img id="img5" src="party/left.png"><button class="active" id="but5" onclick="voteOn(5)"></button></div>
+				<div id="area6" class="b1"><img id="img6" src="party/left.png"><button class="active" id="but6" onclick="voteOn(6)"></button></div>
+				<div id="area7" class="b1"><img id="img7" src="party/left.png"><button class="active" id="but7" onclick="voteOn(7)"></button></div>
+				<div id="area8" class="b1"><img id="img8" src="party/left.png"><button class="active" id="but8" onclick="voteOn(8)"></button></div>
+				<div class="b1"><img src="party/left.png"><button class="not" style="background-color: #818084;"></button></div>
+				<div class="b1"><img src="party/left.png"><button class="not" style="background-color: #818084"></button></div>
+			</div>
+		</div>
+		<div id="container2">
+			<div id="display"><img id="selectImg" src="party/default.png" width="50px" height="50px"><label id="votescountVar"></label></div>
+			<button id="green" onclick="shutdown()"><img src="party/power.png" height="35px" width="35px"></button>
+			<button id="reset" onclick="resetVotes()">Reset</button>
+			<button id="count" onclick="enableCounting()">Count</button>
+			<button class="marks" id="mark1" onclick="closenewWIN()" disabled><b style="color:red">&cross;</b></buttton>
+			<button class="marks" id="mark2" onclick="shownewWIN()" disabled><b style="color: green">&check;</b></button>
+			<button class="marks" id="mark3" onclick="nextParty()" disabled><b>&#8680;</b></button>
+			<button class="marks" id="mark4" onclick="prevParty()" disabled><b>&#8678;</b></button>
+			<button class="marks" id="voteConfirm" onclick="voteConfirmfun()"><b style="color:green">&check;</b></button>
+			<button class="marks" id="voteCancel" onclick="voteCancelfun()"><b style="color: red">&cross;</b></button>
+			<div id="power"></div>
+
+		</div>
+	</div>
+	<script type="text/javascript" src="ballet.js"></script>
+</body>
+</html>
