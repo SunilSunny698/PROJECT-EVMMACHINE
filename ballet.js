@@ -1,38 +1,3 @@
-// var b1=document.getElementById("but1");
-// b1.addEventListener("click",function(){
-// 	document.getElementById("selectImg").src="party/1.png"
-// 	document.getElementById("area1").style.backgroundColor="#fcfcfc"
-// 	document.getElementById("img1").style.display="none"
-// 	document.getElementById("but1").style.display="none"
-// });
-// var b2=document.getElementById("but2");
-// b2.addEventListener("click",function(){
-// 	document.getElementById("selectImg").src="party/2.png"
-// });
-// var b3=document.getElementById("but3");
-// b3.addEventListener("click",function(){
-// 	document.getElementById("selectImg").src="party/3.png"
-// });
-// var b4=document.getElementById("but4");
-// b4.addEventListener("click",function(){
-// 	document.getElementById("selectImg").src="party/4.png"
-// });
-// var b5=document.getElementById("but5");
-// b5.addEventListener("click",function(){
-// 	document.getElementById("selectImg").src="party/5.jpg"
-// });
-// var b6=document.getElementById("but6");
-// b6.addEventListener("click",function(){
-// 	document.getElementById("selectImg").src="party/6.jpg"
-// });
-// var b7=document.getElementById("but7");
-// b7.addEventListener("click",function(){
-// 	document.getElementById("selectImg").src="party/7.jpg"
-// });
-// var b8=document.getElementById("but8");
-// b8.addEventListener("click",function(){
-// 	document.getElementById("selectImg").src="party/8.png"
-// });
 var cong=0;
 var bjp=0;
 var tdp=0;
@@ -46,18 +11,8 @@ function voteOn(i){
 	document.getElementById("selectImg").src="party/"+i+".png"
 	document.getElementById("area"+i).style.backgroundColor="#fcfcfc"
 	document.getElementById("img"+i).style.display="none";
-	document.getElementById("but"+i).disabled="true"
+	document.getElementById("but"+i).disabled=true;
 	document.getElementById("but"+i).style.display="none";
-	
-	// for(let j=1;j<9;j++){
-	// 	alert(i)
-	// 	if(j!=i){
-	// 		document.getElementById("img"+i).style.display="block";
-	// 		document.getElementById("but"+i).style.display="block";
-	// 		var k=document.getElementById("area"+i).style;
-	// 		k.removeProperty("backgroundColor")
-	// 	}
-	// }
 	disableFree(prev);
 	prev=i;
 }
@@ -65,7 +20,7 @@ function disableFree(k){
 	if(k!=0){
 		document.getElementById("img"+k).style.display="block";
 		document.getElementById("but"+k).style.display="block";
-		document.getElementById("but"+k).disabled="false"
+		document.getElementById("but"+k).disabled=false;
 		document.getElementById("area"+k).style.backgroundColor="";
 	}
 }
