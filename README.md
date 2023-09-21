@@ -28,7 +28,7 @@ HR users have access to a wide range of functionalities, including:
 **Payslip Generation**: Generate individualized payslips for all employees, making the payroll process efficient and accurate.
 
 ## For Employees
-Employees has access to:
+Employees have access to:
 
 **Personal Profiles**: View their personal profiles.
 
