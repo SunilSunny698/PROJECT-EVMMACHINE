@@ -8,6 +8,10 @@ HR users have access to a wide range of functionalities, including:
 
 **Employee Records**: Add new employee records, update existing employee details, and remove employee records when necessary.
 
+**Employee earnings Records**: Add, update employee earinings whenever neccessary.
+
+**Employee deductions Records**: Add, update employee deductions.
+
 **Payslip Generation**: Generate individualized payslips for all employees, making the payroll process efficient and accurate.
 
 ## For Employees
