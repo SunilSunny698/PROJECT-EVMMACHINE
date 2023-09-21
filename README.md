@@ -1,10 +1,10 @@
-#Payroll Management System (PMS)
+# Payroll Management System (PMS)
 The Payroll Management System (PMS) is a comprehensive platform designed for both employees and HR personnel. It offers various features to streamline payroll processes and improve organizational efficiency.
 
-##For HR Personnel
+## For HR Personnel
 HR users have access to a wide range of functionalities, including:
 
-###Employee Roster: Easily access and manage a comprehensive list of all employees within the organization.
+### Employee Roster: Easily access and manage a comprehensive list of all employees within the organization.
 
 Employee Records: Add new employee records, update existing employee details, and remove employee records when necessary.
 
