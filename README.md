@@ -4,15 +4,15 @@ The Payroll Management System (PMS) is a comprehensive platform designed for bot
 ## Getting started
 To access the platform, follow these steps:
 
-**HR access**
+### HR access
 1.Visit the PMS Login Portal.
 2.Use the provided HR credentials to log in. HR personnel will receive their credentials from the organization's administration.
 3.Once logged in as an HR user, you can begin managing employee records and payroll.
 
-**Employee acesss**
-1.Employees should visit the PMS Login Portal.
-2.Employees will log in using the credentials set by HR during the onboarding process.
-3.Once logged in, employees can view their personal profiles and access their individual payslips.
+### Employee acesss
+1. Employees should visit the PMS Login Portal.
+2. Employees will log in using the credentials set by HR during the onboarding process.
+3. Once logged in, employees can view their personal profiles and access their individual payslips.
 
 ## For HR Personnel
 HR users have access to a wide range of functionalities, including:
